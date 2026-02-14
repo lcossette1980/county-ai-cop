@@ -1,0 +1,11 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Prompt Library",
+  description:
+    "Browse and discover AI prompts designed for government workflows.",
+};
+
+export default function Layout({ children }: { children: React.ReactNode }) {
+  return children;
+}
